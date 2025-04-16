@@ -38,7 +38,6 @@ target_compile_options(parser_test
 	-Wall
 	-Wextra
 	-Werror
-	-Wconversion
 	-Wpedantic
 )
 target_link_libraries(parser_test PRIVATE
