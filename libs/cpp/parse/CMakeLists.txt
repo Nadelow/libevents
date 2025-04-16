@@ -7,7 +7,6 @@ target_compile_options(libevents_parser
 	-Wall
 	-Wextra
 	-Werror
-	-Wconversion
 	-Wpedantic
 )
 
@@ -19,6 +18,5 @@ target_compile_options(libevents_health_and_arming_checks
 	-Wall
 	-Wextra
 	-Werror
-	-Wconversion
 	-Wpedantic
 )
