@@ -7,7 +7,6 @@ target_compile_options(libevents_receive
 	-Wall
 	-Wextra
 	-Werror
-	-Wconversion
 	-Wpedantic
 )
 
