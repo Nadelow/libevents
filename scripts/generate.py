@@ -109,7 +109,7 @@ def add_info(events, base_types):
                             (arg["base_type"], arg["type"]) = \
                                 common.base_type_from_enum(events, namespace, arg["type"])
 
-def jinja_cpp_namespace(arg_type: str):
+def jinja_cpp_namespace(arg_type):
     """ jinja filter to convert an enum type to a C++ namespace
     """
     if arg_type in common.base_types:
