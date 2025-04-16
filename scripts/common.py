@@ -14,7 +14,7 @@ base_types = {
     "float": {"size": 4},
     }
 
-def base_type_from_enum(events, default_namespace: str, enum: str):
+def base_type_from_enum(events, default_namespace, enum):
     """ returns teh base type given an enum
         enum is expected in the form: [<namespace>::]<name>
         :return: tuple of (base_type, normalized enum)
